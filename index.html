@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerebrando</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cerebrando!</h1>
+            <nav>
+                <!-- O link para o modal usa um ID (#loginModal) -->
+                <a href="#loginModal">Cadastre-se</a>
+            </nav>
+        </header>
+        <aside class="sidebar">
+            <ul>
+                <li>Bem-vindo ao Cerebrando, sua plataforma de estudos organizada e 100% remota! 🌟</li>
+                <li>Nosso objetivo é transformar a maneira como você aprende, ajudando estudantes de todas as idades a alcançar seu potencial máximo.</li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Aprenda de maneira organizada e remota!</h2>
+            <div class="illustration">
+                <img src="assets/pessoas.png" alt="Illustration of people discussing">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <h3>Organização</h3>
+                    <p>Tenha acesso a conteúdos organizados.</p>
+                </div>
+                <div class="card">
+                    <h3>100% Remoto</h3>
+                    <p>Estude de onde quiser.</p>
+                </div>
+                <div class="card">
+                    <h3>Suporte</h3>
+                    <p>Conte com o apoio de nossa equipe.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal com CSS -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <a href="#" class="close-button">&times;</a>
+            <h2>Cadastro</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="age">Idade:</label>
+                <input type="number" id="idade" idade="idade" required>
+                <label for="escolaridade">Nível de Escolaridade:</label>
+                <select id="escolaridade" name="escolaridade">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="fundamental">Aluno Fundamental</option>
+                    <option value="medio">Aluno Ensino Médio</option>
+                    <option value="graduando">Graduando</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <a href="html2.html" class="button">
+                    <button type="button">Cadastrar</button>
+                </a>
+            </form>
+            <a href="#" class="close-modal">Fechar</a>
+        </div>
+    </div>
+</body>
+</html>
