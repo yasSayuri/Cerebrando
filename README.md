@@ -1,4 +1,4 @@
-# Cerebrando
+<h1 align="center"># Cerebrando</h1>
 
 ## Descrição do Projeto
 
