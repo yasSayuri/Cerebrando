@@ -1,4 +1,4 @@
-<h1 align="center"># Cerebrando</h1>
+<h1 align="center">Cerebrando</h1>
 
 ## Descrição do Projeto
 
@@ -6,7 +6,7 @@ O **Cerebrando** é um site criado com o objetivo de oferecer uma plataforma pr�
 
 Além de ser uma ferramenta de organização de estudos, o **Cerebrando** também se preocupa com questões sociais. O site conta com uma aba de **doações**, onde os usuários podem entrar em contato para doar materiais de estudo antigos, como livros, cadernos e outros recursos, para instituições que atendem pessoas necessitadas. A plataforma funciona como uma ponte entre aqueles que querem contribuir e as organizações que precisam de apoio, incentivando o compartilhamento e a solidariedade.
 
-## Funcionalidades do Site
+<h1 align="center">Funcionalidades do Site</h1
 
 - **Checklists de Estudo:**  
   Permite que o usuário crie listas de tarefas e monitore o progresso de suas matérias, com a opção de marcar os tópicos como completos à medida que avança nos estudos.
@@ -20,7 +20,7 @@ Além de ser uma ferramenta de organização de estudos, o **Cerebrando** també
 - **Acessibilidade e Facilidade de Uso:**  
   O design do site foi pensado para ser simples e intuitivo, visando facilitar o acesso a todas as funcionalidades de maneira clara e sem complexidade.
 
-## Objetivos do Projeto
+<h1 align="center">Objetivos do Projeto</h1>
 
 - **Auxiliar na organização dos estudos:**  
   Facilitar o gerenciamento de matérias e conteúdo estudado, ajudando os estudantes a manterem um cronograma eficiente.
@@ -31,7 +31,7 @@ Além de ser uma ferramenta de organização de estudos, o **Cerebrando** també
 - **Plataforma gratuita e acessível:**  
   Garantir que qualquer estudante, independentemente de sua situação financeira, tenha acesso a uma ferramenta de organização e apoio no estudo de qualidade.
 
-## Integrantes
+<h1 align="center">Integrantes</h1>
 
 - **Yasmin Sayuri Matuzaki Cardoso**
 - **Pedro Augusto de Lima Oliveira**
