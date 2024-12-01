@@ -1,2 +1,1 @@
-# Cerebrando
-Site de guia de estudos remoto
+<h1 align="center"> Cerebrando </h1>
