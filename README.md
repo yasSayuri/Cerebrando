@@ -1,12 +1,12 @@
 <h1 align="center">Cerebrando</h1>
 
-## Descrição do Projeto
+<h1 align="center">Descrição do Projeto</h1>
 
 O **Cerebrando** é um site criado com o objetivo de oferecer uma plataforma prática e acessível para estudantes de diversas áreas. A proposta do projeto é auxiliar na organização dos estudos de maneira simples e eficiente, permitindo que os usuários criem checklists das matérias que estão sendo estudadas. A plataforma permite que os estudantes registrem seu progresso, marquem o que já foi estudado e visualizem rapidamente o que ainda precisa ser revisado. Com uma interface intuitiva e fácil de usar, o **Cerebrando** busca otimizar a jornada do aprendizado, proporcionando uma visão clara da evolução dos estudos e ajudando a melhorar a produtividade.
 
 Além de ser uma ferramenta de organização de estudos, o **Cerebrando** também se preocupa com questões sociais. O site conta com uma aba de **doações**, onde os usuários podem entrar em contato para doar materiais de estudo antigos, como livros, cadernos e outros recursos, para instituições que atendem pessoas necessitadas. A plataforma funciona como uma ponte entre aqueles que querem contribuir e as organizações que precisam de apoio, incentivando o compartilhamento e a solidariedade.
 
-<h1 align="center">Funcionalidades do Site</h1
+<h1 align="center">Funcionalidades do Site</h1>
 
 - **Checklists de Estudo:**  
   Permite que o usuário crie listas de tarefas e monitore o progresso de suas matérias, com a opção de marcar os tópicos como completos à medida que avança nos estudos.
