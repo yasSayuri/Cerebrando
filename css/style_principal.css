@@ -30,9 +30,18 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #6c5ce7;
     padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .titulo-header {
+    font-size: 2rem;
+    color: white;
+    margin-left: -160px; /* Empurra para a esquerda inicialmente */
+    margin-right: 175px;
     text-align: center;
 }
 
@@ -46,6 +55,10 @@ header a{
     border-radius: 15px;
     width: 150px;
     transition: transform 0.5s , background-color 0.5s ease, color 0.5s ease;
+    
+}
+header a:nth-last-of-type(-n+2) {
+    margin-left: -500px; /* Ajusta o espaçamento entre os últimos dois links */
 }
 
 header a:hover{
@@ -54,10 +67,6 @@ header a:hover{
     transform: translateY(-2px);
 }
 
-h1 {
-    color: white;
-    font-size: 2rem;
-}
 
 main {
     display: flex;
