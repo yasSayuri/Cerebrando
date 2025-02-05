@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #afabe5, #a29bfe);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%; /* Ajusta a largura para ocupar mais espaço */
+    max-width: 1400px; /* Define o limite máximo */
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px #6c5ce7;
+    color: #333;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 0; /* Remove o espaçamento interno extra */
+}
+
+header, footer {
+    width: 100%; /* Garante que os elementos acompanhem a largura da caixa */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c5ce7;
+    padding: 20px;
+}
+
+header .titulo-header {
+    font-size: 2rem;
+    color: white;
+    margin-left: -70px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #a29bfe;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: transform 0.5s, background-color 0.5s ease, color 0.5s ease;
+}
+
+header a:hover {
+    color: #333;
+    background-color: #fff;
+    transform: translateY(-2px);
+}
+
+main {
+    padding: 40px; /* Adiciona espaçamento interno mais confortável */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #6c5ce7;
+    text-align: center;
+    font-size: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 410px;
+    font-size: 1.2rem;
+}
+
+form input {
+    width: 80%; /* Define uma largura proporcional */
+    max-width: 500px; /* Limita a largura máxima */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que o elemento seja tratado como bloco */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #333;
+    font-size: 1rem;
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.botoes button {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c5ce7;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botoes button:hover {
+    background-color: #a29bfe;
+}
+
+.lista-usuarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-usuarios li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10x;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.lista-usuarios input#pesquisar {
+    width: 80%; /* Define uma largura proporcional */
+    max-width: 500px; /* Limita a largura máxima */
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que o elemento seja tratado como bloco */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #333;
+    font-size: 1rem;
+}
+
+
+.lista-usuarios li button {
+    padding: 5px 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lista-usuarios li button:hover {
+    background-color: #ff4c4c;
+}
+
+footer {
+    background-color: #6c5ce7;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Garante que acompanhe a largura da caixa */
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #a29bfe;
+}
